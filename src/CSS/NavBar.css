@@ -108,6 +108,10 @@ nav {
     position: static;
     z-index: 1;
   }
+  .mn-no-visi-span > span {
+    background-color: black;
+  
+  }
 
  
   .menu-mobile {
