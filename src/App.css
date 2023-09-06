@@ -1,0 +1,15 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+.App{
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3px;
+  width: 100%;
+  background-color: rgba(197, 193, 193, 0.227);
+}

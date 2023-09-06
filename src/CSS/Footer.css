@@ -1,0 +1,289 @@
+.footer {
+  width: 100%;
+ 
+  background-color: #ffffff;
+  padding: 20px 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  max-width: 1500px;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.ax{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.Section-footer {
+  display: grid;
+  max-width: 1100px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "uno"
+    "dos"
+    "tres"
+    "cuatro"
+    "cinco"
+    "seis"
+    "siete";
+  gap: 25px;
+}
+
+.uno {
+  grid-area: uno;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.dos {
+  grid-area: dos;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  width: 100%;
+}
+
+.dos > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.dos > div > a {
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+}
+
+.dos > div i {
+  font-size: 1.5rem;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bxl-facebook {
+  background-color: blue;
+}
+
+.bxl-instagram {
+  background-color: rgb(192, 6, 192);
+}
+
+.bxl-twitter {
+  background-color: cyan;
+}
+
+.bxl-youtube {
+  background-color: red;
+}
+
+.tres {
+  grid-area: tres;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.tres > div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.cuatro {
+  grid-area: cuatro;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap:20px
+}
+.cuatro>p{
+    line-height: 25px;
+    font-size: .8;
+    max-width: 300px;
+}
+
+.cinco {
+  grid-area: cinco;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.cinco>div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.seis {
+  grid-area: seis;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+
+.siete {
+  grid-area: siete;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+    gap: 10px;
+}
+.cont-logo-footer{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+.cont-logo-footer>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.cont-it-a-footer{
+    display: flex;
+    gap: 3px;
+ 
+}
+.cont-it-b-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+   
+}
+.cont-it-a-footer>span{
+    width:3px;
+    height: 22px;
+    background-color: black;
+}
+.cont-it-b-footer>span{
+    width:23px;
+    height: 3px;
+    background-color: black;
+}
+.cont-input-footer{
+  width: 100%;
+  height: 40px;
+  background-color: rgb(242, 242, 242);
+}
+.cont-input-footer>input{
+  width: 70%;
+  height: 100%;
+  background-color: transparent;
+  border: 0;
+  color: #5f5d5d;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+.cont-input-footer>button{
+  width: 30%;
+  height: 100%;
+  background-color: blue;
+  color: #ffffff;
+  border: 0;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.cont-input-footer>input::placeholder{
+  color: #5f5d5d;
+}
+.select1{
+    
+  width: 100px;
+  height: 30px;
+  background: #ecebeb;
+  color: black;
+  font-weight: 900;
+  border: 0;
+}
+.select2{
+  margin-left: 5px;
+  width: 150px;
+  height: 30px;
+  background: #ecebeb;
+  color: black;
+  font-weight: 900;
+  border: 0;
+}
+@media screen and (min-width:1000px) {
+  .footer{
+    justify-content: center;
+    padding: 5px;
+    height: 85vh;
+    padding: 60px 0;
+  }
+  .Section-footer {
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-areas:
+      "uno uno uno"
+      " dos tres cuatro"
+      " cinco seis seis"
+      "siete siete siete";
+    gap: 35px;
+  }
+  .siete{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cont-logo-footer{
+    width: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.8rem;
+}
+  .contact-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 0.8rem;
+  
+  }
+  .cuatro>p{
+    line-height: 35px;
+  }
+  .seis{
+    justify-content: flex-start;
+  }
+  
+
+
+  
+}
