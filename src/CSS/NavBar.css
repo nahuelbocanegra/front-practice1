@@ -32,7 +32,7 @@ nav {
 .it-a {
   width: 4px;
   height: 30px;
-  background-color: black;
+  background-color: #ffffff;
   transition: all 0.5s ease-in-out;
 }
 .cont-it-b-nav {
@@ -47,11 +47,11 @@ nav {
 .it-b {
   width: 31px;
   height: 4px;
-  background-color: black;
   transition: all 0.5s ease-in-out;
+  background-color: #ffffff;
 }
 .mn-no-visi-span > span {
-  background-color: #ffffff;
+  background-color: black;
 
 }
 .menu-mobile {
@@ -59,10 +59,10 @@ nav {
   transition: color .5s ease-in-out;
 }
 .mn-no-visi {
-  color: #ffffff;
+  color: black;
 }
 .mn-visi {
-  color: black;
+  color: #ffffff;
 }
 .menu {
   position: fixed;

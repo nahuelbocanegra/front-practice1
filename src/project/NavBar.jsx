@@ -10,7 +10,7 @@ export default function NavBar() {
             }`}>
           <div
             className={`cont-it-a-nav ${
-              visi ? "mn-visi-span" : "mn-no-visi-span"
+              visi ? " " : "mn-no-visi-span"
             }`}
           >
             <span className="it-a"></span>
@@ -37,7 +37,7 @@ export default function NavBar() {
             Menu<i className="bx bx-chevron-down"></i>
           </h3>
         
-        <ul className={`menu ${visi ? "visi" : " "}`}>
+        <ul className={`menu ${visi ? "" : "visi "}`}>
           <li>Live</li>
           <li>Push</li>
           <li>Note</li>
